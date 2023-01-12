@@ -1,0 +1,49 @@
+@import url("../font/font.css");
+
+* {
+  outline: 0 !important;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+
+html a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+html a:hover {
+  text-decoration: none;
+}
+
+svg,
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+html .container {
+  max-width: 1560px;
+  position: relative;
+}
+
+p {
+  margin-bottom: 0px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+::selection {
+  color: #fff;
+  background: #0085ff;
+}
+b,
+strong {
+  font-weight: 600;
+}
+button:focus {
+  box-shadow: none;
+}
+.row{
+    margin: 0;
+}

@@ -1,0 +1,103 @@
+/* AvenirLT */
+@font-face {
+    font-family: "AvenirLT";
+    src: url("./AvenirLT/AvenirLT-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvenirLT";
+    src: url("./AvenirLT/AvenirLT-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvenirLT";
+    src: url("./AvenirLT/AvenirLT-Heavy.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvenirLT";
+    src: url("./AvenirLT/AvenirLT-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Raleway */
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-Thin.ttf");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-ExtraLight.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Poppins */
+@font-face {
+    font-family: "Poppins";
+    src: url("./Poppins/Poppins-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Helvetica */
+@font-face {
+    font-family: "Helvetica";
+    src: url("./Helvetica/Helvetica.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url("./Helvetica/Helvetica-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}

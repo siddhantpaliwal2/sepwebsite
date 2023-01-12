@@ -1,0 +1,794 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "Building"
+      }
+    },
+    "city": {
+      "type": "Text",
+      "config": {
+        "label": "city"
+      }
+    },
+    "hero_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 1920,
+          "height": 1080
+        },
+        "thumbnails": [
+          {
+            "name": "tablet",
+            "width": 1536,
+            "height": 2048
+          },
+          {
+            "name": "phone",
+            "width": 750,
+            "height": 1334
+          },
+          {
+            "name": "card",
+            "width": 225,
+            "height": 225
+          }
+        ],
+        "label": "Hero Image"
+      }
+    },
+    "building_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1",
+        "label": "Building Name"
+      }
+    },
+    "icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 60,
+          "height": 60
+        },
+        "thumbnails": [],
+        "label": "Icon"
+      }
+    },
+    "neighbourhood_name": {
+      "type": "Text",
+      "config": {
+        "label": "Neighbourhood Name"
+      }
+    },
+    "short_building_description": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "Short Building Description"
+      }
+    },
+    "apartments_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Apartments Image"
+      }
+    },
+    "apartments_number": {
+      "type": "Number",
+      "config": {
+        "label": "Apartments Number"
+      }
+    },
+    "apartments_label": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Apartments Label"
+      }
+    },
+    "bedrooms_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Bedrooms Image"
+      }
+    },
+    "bedrooms_number": {
+      "type": "Number",
+      "config": {
+        "label": "Bedrooms Number"
+      }
+    },
+    "bedrooms_label": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Bedrooms Label"
+      }
+    },
+    "train_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Train Image"
+      }
+    },
+    "train_stop_name": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Train Stop Name"
+      }
+    },
+    "train_distrance": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "Train distrance",
+        "placeholder": "Distance and time to walk"
+      }
+    },
+    "building_description": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Building Description",
+        "placeholder": "Page description"
+      }
+    },
+    "building_address": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Building address"
+      }
+    },
+    "starting_price": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Starting Price"
+      }
+    },
+    "overlay": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "overlay"
+      }
+    },
+    "map": {
+      "type": "GeoPoint",
+      "config": {
+        "label": "map"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "banner_with_caption": [],
+          "locations": [],
+          "section_title": [],
+          "smaller_cta": [],
+          "comparison_table": [],
+          "cta": [],
+          "text_with_button": [],
+          "features_with_images": [],
+          "amenities": [],
+          "roommates": [],
+          "rooms": [],
+          "building_pictures": [],
+          "image_gallery": [
+            {
+              "name": "onecol",
+              "display": "onecol"
+            },
+            {
+              "name": "twocol",
+              "display": "twocol"
+            },
+            {
+              "name": "threecol",
+              "display": "threecol"
+            },
+            {
+              "name": "fourcol",
+              "display": "fourcol"
+            },
+            {
+              "name": "icons",
+              "display": "icons"
+            },
+            {
+              "name": "avatars",
+              "display": "avatars"
+            }
+          ],
+          "text": [
+            {
+              "name": "onecol",
+              "display": "onecol"
+            },
+            {
+              "name": "twocol",
+              "display": "twocol"
+            },
+            {
+              "name": "threecol",
+              "display": "threecol"
+            }
+          ],
+          "full_width_images": [
+            {
+              "name": "three",
+              "display": "three"
+            },
+            {
+              "name": "four",
+              "display": "four"
+            },
+            {
+              "name": "five",
+              "display": "five"
+            }
+          ]
+        },
+        "choices": {
+          "rooms": {
+            "type": "Slice",
+            "fieldset": "Rooms",
+            "description": "List of rooms available",
+            "icon": "home",
+            "display": "list",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Title",
+                  "placeholder": "Rooms"
+                }
+              }
+            },
+            "repeat": {
+              "picture": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 686,
+                    "height": 302
+                  },
+                  "thumbnails": [],
+                  "label": "Picture"
+                }
+              },
+              "room_type": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading3, heading4, heading5, heading6",
+                  "label": "Room Type"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Description"
+                }
+              },
+              "feature_list": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "list-item",
+                  "label": "Feature list"
+                }
+              },
+              "starting_price": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Starting price"
+                }
+              },
+              "button": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Button",
+                  "placeholder": "Request viewing"
+                }
+              },
+              "button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button link",
+                  "allowTargetBlank": true,
+                  "placeholder": "Request viewing"
+                }
+              },
+              "room_available": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "Yes",
+                    "No"
+                  ],
+                  "label": "Room available"
+                }
+              },
+              "overlay": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Overlay",
+                  "placeholder": "Room Available"
+                }
+              }
+            }
+          },
+          "cta": {
+            "type": "Slice",
+            "fieldset": "CTA",
+            "description": "Full size CTA with background color",
+            "icon": "touch_app",
+            "display": "list",
+            "non-repeat": {
+              "cta_background_color": {
+                "type": "Color",
+                "config": {
+                  "label": "CTA Background Color"
+                }
+              },
+              "cta_text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "CTA_text"
+                }
+              },
+              "cta_button": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "CTA Button"
+                }
+              },
+              "cta_button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Button Link"
+                }
+              },
+              "cta_button_color": {
+                "type": "Color",
+                "config": {
+                  "label": "CTA Button Color"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "image_gallery": {
+            "type": "Slice",
+            "fieldset": "Image Gallery",
+            "description": "A collection of images, each with a description and an optional link",
+            "icon": "image",
+            "non-repeat": {
+              "gallery_title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3",
+                  "label": "Gallery Title",
+                  "placeholder": "Image Gallery Title...",
+                  "isEverythingAuthorized": false,
+                  "authorized": [
+                    "heading2",
+                    "heading3",
+                    "text"
+                  ],
+                  "isAuthorized": {}
+                }
+              }
+            },
+            "repeat": {
+              "feature": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Feature"
+                }
+              },
+              "image_description": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Image Description",
+                  "placeholder": "Image description...",
+                  "isEverythingAuthorized": false,
+                  "authorized": [
+                    "paragraph",
+                    "text"
+                  ],
+                  "isAuthorized": {}
+                }
+              },
+              "overlay_text": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Overlay Text",
+                  "placeholder": "Text to add on top of the picture"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "Optional Link"
+                }
+              },
+              "link_label": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Link Label",
+                  "placeholder": "Optional Link Label",
+                  "isEverythingAuthorized": false,
+                  "authorized": [
+                    "paragraph",
+                    "text"
+                  ],
+                  "isAuthorized": {}
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": null,
+                    "height": null
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "threecol",
+                      "width": 411,
+                      "height": 411
+                    },
+                    {
+                      "name": "twocol",
+                      "width": 630,
+                      "height": 630
+                    },
+                    {
+                      "name": "onecol",
+                      "width": 630,
+                      "height": 300
+                    },
+                    {
+                      "name": "icons",
+                      "width": 58,
+                      "height": 58
+                    },
+                    {
+                      "name": "avatars",
+                      "width": 81,
+                      "height": 81
+                    },
+                    {
+                      "name": "fourcol",
+                      "width": 308,
+                      "height": 308
+                    }
+                  ],
+                  "label": "Image"
+                }
+              }
+            },
+            "display": "grid"
+          },
+          "text": {
+            "type": "Slice",
+            "fieldset": "Text",
+            "description": "Rich Text Section",
+            "icon": "text_fields",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Title"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "text",
+                  "placeholder": "Your content here"
+                }
+              }
+            },
+            "repeat": {
+              "column": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "column"
+                }
+              }
+            },
+            "display": "list"
+          },
+          "spacer": {
+            "type": "Slice",
+            "fieldset": "Spacer",
+            "description": "Add vertical space",
+            "icon": "check_box_outline_blank",
+            "display": "list",
+            "non-repeat": {
+              "pixels": {
+                "type": "Number",
+                "config": {
+                  "label": "Pixels"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "embed_section": {
+            "type": "Slice",
+            "fieldset": "Embed Section",
+            "description": "Embed section with either one or two columns",
+            "icon": "code",
+            "non-repeat": {
+              "background_color": {
+                "type": "Color",
+                "config": {
+                  "label": "Background Color"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Section Title"
+                }
+              },
+              "rich_text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Rich Text",
+                  "placeholder": "Text..."
+                }
+              },
+              "embed": {
+                "type": "Embed",
+                "config": {
+                  "label": "Embed"
+                }
+              },
+              "embed_html": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "preformatted",
+                  "label": "embed HTML"
+                }
+              }
+            },
+            "repeat": {},
+            "display": "list"
+          },
+          "map": {
+            "type": "Slice",
+            "fieldset": "Map",
+            "description": "Map of properties",
+            "icon": "map",
+            "display": "list",
+            "non-repeat": {
+              "home": {
+                "type": "GeoPoint",
+                "config": {
+                  "label": "home"
+                }
+              },
+              "marker": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 30,
+                    "height": 43
+                  },
+                  "thumbnails": [],
+                  "label": "marker"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "full_width_images": {
+            "type": "Slice",
+            "fieldset": "Full Width Images",
+            "description": "Components with n images full width",
+            "icon": "photo_library",
+            "display": "list",
+            "non-repeat": {
+              "background": {
+                "type": "Color",
+                "config": {
+                  "label": "background"
+                }
+              }
+            },
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [
+                    {
+                      "name": "horizontal",
+                      "width": 1142,
+                      "height": 806
+                    },
+                    {
+                      "name": "vertical",
+                      "width": 820,
+                      "height": 1093
+                    }
+                  ],
+                  "label": "image"
+                }
+              }
+            }
+          },
+          "building_cards": {
+            "type": "Slice",
+            "fieldset": "Building Cards",
+            "description": "Summary of building features",
+            "icon": "location_city",
+            "display": "grid",
+            "non-repeat": {
+              "city": {
+                "type": "Text",
+                "config": {
+                  "label": "city"
+                }
+              },
+              "neighbourhood": {
+                "type": "Text",
+                "config": {
+                  "label": "neighbourhood"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Social Cards": {
+    "seo_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "SEO Description"
+      }
+    },
+    "Social body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {},
+        "choices": {
+          "general_card": {
+            "type": "Slice",
+            "fieldset": "General Card",
+            "description": "General Social card for Facebook, LinkedIn, Google+, etc.",
+            "icon": "art_track",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1",
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Description",
+                  "placeholder": "Description..."
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 1200,
+                    "height": 650
+                  },
+                  "thumbnails": [],
+                  "label": "Image"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "twitter_card": {
+            "type": "Slice",
+            "fieldset": "Twitter Card",
+            "description": "Twitter summary card with image",
+            "icon": "subtitles",
+            "non-repeat": {
+              "card_type": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "Standard Summary Card",
+                    "Summary Card with Large Image"
+                  ],
+                  "default_value": "Standard Summary Card",
+                  "label": "Card type"
+                }
+              },
+              "twitter_handle": {
+                "type": "Text",
+                "config": {
+                  "label": "Twitter Handle",
+                  "placeholder": "Twitter handle..."
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Title",
+                  "placeholder": "Twitter Card Title..."
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Description",
+                  "placeholder": "Twitter Card Description..."
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 300,
+                    "height": 300
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "large_image",
+                      "width": 600,
+                      "height": 314
+                    }
+                  ],
+                  "label": "Image"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  }
+}

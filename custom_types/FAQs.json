@@ -1,0 +1,212 @@
+{
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Page"
+        }
+      },
+      "hero_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1920,
+            "height": 1080
+          },
+          "thumbnails": [],
+          "label": "Hero Image"
+        }
+      },
+      "page_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading1",
+          "label": "Page Title",
+          "placeholder": "Page title"
+        }
+      },
+      "divider_and_button_color": {
+        "type": "Color",
+        "config": {
+          "label": "Divider and button color"
+        }
+      },
+      "page_description": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "label": "Page Description",
+          "placeholder": "Page description"
+        }
+      },
+      "button_label": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+          "label": "Button label",
+          "placeholder": "Click Here"
+        }
+      },
+      "button_link": {
+        "type": "Link",
+        "config": {
+          "label": "Button Link",
+          "placeholder": "Select the link"
+        }
+      },
+      "question_marker": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 36,
+            "height": 36
+          },
+          "thumbnails": [],
+          "label": "Question Marker"
+        }
+      },
+      "show_more": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "Show More"
+        }
+      },
+      "show_less": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "Show Less"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "faq_topic": []
+          },
+          "choices": {
+            "faq_topic": {
+              "type": "Slice",
+              "fieldset": "FAQ Topic",
+              "description": "A new section of the FAQs",
+              "icon": "question_answer",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2, heading3, heading4, heading5, heading6",
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {
+                "question": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading3, heading4, heading5, heading6",
+                    "label": "Question"
+                  }
+                },
+                "answer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph",
+                    "label": "Answer"
+                  }
+                }
+              }
+            },
+            "smaller_cta": {
+              "type": "Slice",
+              "fieldset": "Smaller CTA",
+              "description": "Small CTA with background",
+              "icon": "touch_app",
+              "display": "list",
+              "non-repeat": {
+                "cta_background_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "CTA Background Color"
+                  }
+                },
+                "cta_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                    "label": "CTA text",
+                    "placeholder": "Read the Frequently Asked Questions (FAQs) for more"
+                  }
+                },
+                "button": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                    "label": "Button",
+                    "placeholder": "FAQs"
+                  }
+                },
+                "button_link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Button link"
+                  }
+                },
+                "button_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Button Color"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "cta": {
+              "type": "Slice",
+              "fieldset": "CTA",
+              "description": "Full size CTA with background color",
+              "icon": "touch_app",
+              "display": "list",
+              "non-repeat": {
+                "cta_background_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "CTA Background Color"
+                  }
+                },
+                "cta_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                    "label": "CTA_text"
+                  }
+                },
+                "cta_button": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                    "label": "CTA Button"
+                  }
+                },
+                "cta_button_link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "CTA Button Link"
+                  }
+                },
+                "cta_button_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "CTA Button Color"
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,635 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "Page"
+      }
+    },
+    "hero_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 1920,
+          "height": 1080
+        },
+        "thumbnails": [
+          {
+            "name": "tablet",
+            "width": 1536,
+            "height": 2048
+          },
+          {
+            "name": "phone",
+            "width": 750,
+            "height": 1334
+          }
+        ],
+        "label": "Hero Image"
+      }
+    },
+    "page_title": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "heading1",
+        "label": "Page Title",
+        "placeholder": "Page title"
+      }
+    },
+    "divider_and_button_color": {
+      "type": "Color",
+      "config": {
+        "label": "Divider and button color"
+      }
+    },
+    "page_description": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "Page Description",
+        "placeholder": "Page description"
+      }
+    },
+    "button_label": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "Button label",
+        "placeholder": "Click Here"
+      }
+    },
+    "button_link": {
+      "type": "Link",
+      "config": {
+        "label": "Button Link",
+        "placeholder": "Select the link"
+      }
+    },
+    "page_content": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "text_section": [],
+          "features_with_images": [
+            {
+              "name": "4_squares_in_row",
+              "display": "4 squares in row"
+            },
+            {
+              "name": "3_squares_in_row",
+              "display": "3 squares in row"
+            },
+            {
+              "name": "1_picture_per_row",
+              "display": "1 picture per row"
+            }
+          ],
+          "image_gallery": [
+            {
+              "name": "onecol",
+              "display": "onecol"
+            },
+            {
+              "name": "twocol",
+              "display": "twocol"
+            },
+            {
+              "name": "threecol",
+              "display": "threecol"
+            },
+            {
+              "name": "fourcol",
+              "display": "fourcol"
+            },
+            {
+              "name": "icons",
+              "display": "icons"
+            },
+            {
+              "name": "avatars",
+              "display": "avatars"
+            }
+          ],
+          "two_column_slice": [],
+          "text": [
+            {
+              "name": "onecol",
+              "display": "onecol"
+            },
+            {
+              "name": "twocol",
+              "display": "twocol"
+            }
+          ]
+        },
+        "choices": {
+          "embed_section": {
+            "type": "Slice",
+            "fieldset": "Embed Section",
+            "description": "Embed section with either one or two columns",
+            "icon": "code",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Section Title"
+                }
+              },
+              "rich_text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Rich Text",
+                  "placeholder": "Text..."
+                }
+              },
+              "embed": {
+                "type": "Embed",
+                "config": {
+                  "label": "Embed"
+                }
+              },
+              "embed_html": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "preformatted",
+                  "label": "embed HTML"
+                }
+              }
+            },
+            "repeat": {},
+            "display": "list"
+          },
+          "quote": {
+            "type": "Slice",
+            "fieldset": "Quote",
+            "description": "A stylized quote",
+            "icon": "format_quote",
+            "non-repeat": {
+              "quote_text": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Quote Text"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "full_width_image": {
+            "type": "Slice",
+            "fieldset": "Full Width Image",
+            "description": "A wide, thin image",
+            "icon": "broken_image",
+            "non-repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 980,
+                    "height": 300
+                  },
+                  "thumbnails": [],
+                  "label": "Image"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "image_gallery": {
+            "type": "Slice",
+            "fieldset": "Image Gallery",
+            "description": "A collection of images, each with a description and an optional link",
+            "icon": "image",
+            "non-repeat": {
+              "gallery_title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3",
+                  "label": "Gallery Title",
+                  "placeholder": "Image Gallery Title...",
+                  "isEverythingAuthorized": false,
+                  "authorized": [
+                    "heading2",
+                    "heading3",
+                    "text"
+                  ],
+                  "isAuthorized": {}
+                }
+              }
+            },
+            "repeat": {
+              "feature": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Feature"
+                }
+              },
+              "image_description": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Image Description",
+                  "placeholder": "Image description...",
+                  "isEverythingAuthorized": false,
+                  "authorized": [
+                    "paragraph",
+                    "text"
+                  ],
+                  "isAuthorized": {}
+                }
+              },
+              "overlay_text": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Overlay Text",
+                  "placeholder": "Text to add on top of the picture"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "Optional Link"
+                }
+              },
+              "link_label": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Link Label",
+                  "placeholder": "Optional Link Label",
+                  "isEverythingAuthorized": false,
+                  "authorized": [
+                    "paragraph",
+                    "text"
+                  ],
+                  "isAuthorized": {}
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": null,
+                    "height": null
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "threecol",
+                      "width": 411,
+                      "height": 411
+                    },
+                    {
+                      "name": "twocol",
+                      "width": 630,
+                      "height": 630
+                    },
+                    {
+                      "name": "onecol",
+                      "width": 630,
+                      "height": 300
+                    },
+                    {
+                      "name": "fourcol",
+                      "width": 308,
+                      "height": 308
+                    },
+                    {
+                      "name": "icons",
+                      "width": 58,
+                      "height": 58
+                    },
+                    {
+                      "name": "avatars",
+                      "width": 81,
+                      "height": 81
+                    }
+                  ],
+                  "label": "Image"
+                }
+              }
+            },
+            "display": "grid"
+          },
+          "image_highlight": {
+            "type": "Slice",
+            "fieldset": "Image Highlight",
+            "description": "A section to highlight an image with title, text, and optional link",
+            "icon": "star",
+            "non-repeat": {
+              "featured_image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 727,
+                    "height": 402
+                  },
+                  "thumbnails": [],
+                  "label": "Featured Image"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2",
+                  "label": "Image Title",
+                  "placeholder": "Featured Title..."
+                }
+              },
+              "headline": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading3",
+                  "label": "Image Headline",
+                  "placeholder": "Featured Headline..."
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Featured Link",
+                  "placeholder": "Optional Link"
+                }
+              },
+              "link_label": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Featured Link Label",
+                  "placeholder": "Optional Link Label"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "section_title": {
+            "type": "Slice",
+            "fieldset": "Section Title",
+            "description": "Section title (with Icon)",
+            "icon": "title",
+            "display": "list",
+            "non-repeat": {
+              "section_icon": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 66,
+                    "height": 63
+                  },
+                  "thumbnails": [],
+                  "label": "Section Icon"
+                }
+              },
+              "section_title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Section title"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "text": {
+            "type": "Slice",
+            "fieldset": "Text",
+            "description": "Rich Text Section",
+            "icon": "text_fields",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2, heading3, heading4, heading5, heading6",
+                  "label": "Title"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "text",
+                  "placeholder": "Your content here"
+                }
+              }
+            },
+            "repeat": {
+              "column": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "column"
+                }
+              }
+            },
+            "display": "list"
+          },
+          "cta": {
+            "type": "Slice",
+            "fieldset": "CTA",
+            "description": "Full size CTA with background color",
+            "icon": "touch_app",
+            "display": "list",
+            "non-repeat": {
+              "cta_background_color": {
+                "type": "Color",
+                "config": {
+                  "label": "CTA Background Color"
+                }
+              },
+              "cta_text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "CTA_text"
+                }
+              },
+              "cta_button": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "CTA Button"
+                }
+              },
+              "cta_button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Button Link"
+                }
+              },
+              "cta_button_color": {
+                "type": "Color",
+                "config": {
+                  "label": "CTA Button Color"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "smaller_cta": {
+            "type": "Slice",
+            "fieldset": "Smaller CTA",
+            "description": "Small CTA with background",
+            "icon": "touch_app",
+            "display": "list",
+            "non-repeat": {
+              "cta_background_color": {
+                "type": "Color",
+                "config": {
+                  "label": "CTA Background Color"
+                }
+              },
+              "cta_text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "CTA text",
+                  "placeholder": "Read the Frequently Asked Questions (FAQs) for more"
+                }
+              },
+              "button": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Button",
+                  "placeholder": "FAQs"
+                }
+              },
+              "button_link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button link"
+                }
+              },
+              "button_color": {
+                "type": "Color",
+                "config": {
+                  "label": "Button Color"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "team": {
+            "type": "Slice",
+            "fieldset": "Team",
+            "description": "Section for team member information with portrait",
+            "icon": "person_pin",
+            "non-repeat": {
+              "team_section": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2",
+                  "label": "Team Section",
+                  "placeholder": "Management"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph",
+                  "label": "Description"
+                }
+              },
+              "icon_ig": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Icon IG"
+                }
+              },
+              "icon_fb": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Icon FB"
+                }
+              },
+              "icon_twitter": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Icon Twitter"
+                }
+              }
+            },
+            "repeat": {
+              "first_and_lastname": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "heading3",
+                  "label": "First and LastName",
+                  "placeholder": "John Doe"
+                }
+              },
+              "position": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph",
+                  "label": "Position",
+                  "placeholder": "Design director"
+                }
+              },
+              "bio": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph",
+                  "label": "Bio"
+                }
+              },
+              "instagram": {
+                "type": "Link",
+                "config": {
+                  "label": "Instagram"
+                }
+              },
+              "facebook": {
+                "type": "Link",
+                "config": {
+                  "label": "Facebook"
+                }
+              },
+              "twitter": {
+                "type": "Link",
+                "config": {
+                  "label": "Twitter"
+                }
+              },
+              "contact_button": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph",
+                  "label": "Contact Button"
+                }
+              },
+              "button_link1": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link"
+                }
+              },
+              "portrait": {
+                "type": "Image",
+                "config": {
+                  "constraint": {
+                    "width": 630,
+                    "height": 300
+                  },
+                  "thumbnails": [],
+                  "label": "Portrait"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

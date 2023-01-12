@@ -1,0 +1,189 @@
+{
+    "Main" : {
+      "logo" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : {
+            "width" : 86,
+            "height" : 38
+          },
+          "thumbnails" : [ {
+            "name" : "Footer",
+            "width" : 126,
+            "height" : 56
+          } ],
+          "label" : "Logo"
+        }
+      },
+      "brand_tag_line" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "Brand Tag Line"
+        }
+      },
+      "background_color" : {
+        "type" : "Color",
+        "config" : {
+          "label" : "Background Color"
+        }
+      },
+      "transparency" : {
+        "type" : "Select",
+        "config" : {
+          "options" : [ "Yes", "No" ],
+          "default_value" : "Yes",
+          "label" : "Transparency"
+        }
+      },
+      "get_in_touch" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "list-item",
+          "label" : "Get in Touch"
+        }
+      },
+      "get_in_touch_link" : {
+        "type" : "Link",
+        "config" : {
+          "label" : "Get in touch link"
+        }
+      },
+      "company_address" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "Company Address"
+        }
+      },
+      "bottom_bar_color" : {
+        "type" : "Color",
+        "config" : {
+          "label" : "Bottom Bar Color"
+        }
+      },
+      "copyright" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "Copyright"
+        }
+      },
+      "social_media_links" : {
+        "type" : "Group",
+        "config" : {
+          "fields" : {
+            "social_media_icon" : {
+              "type" : "Image",
+              "config" : {
+                "constraint" : { },
+                "thumbnails" : [ ],
+                "label" : "Social Media Icon"
+              }
+            },
+            "social_media_link" : {
+              "type" : "Link",
+              "config" : {
+                "label" : "Social Media Link"
+              }
+            }
+          },
+          "label" : "Social Media Links"
+        }
+      },
+      "nav" : {
+        "type" : "Slices",
+        "fieldset" : "Slice zone",
+        "config" : {
+          "labels" : {
+            "header" : [ ],
+            "footer" : [ ]
+          },
+          "choices" : {
+            "header" : {
+              "type" : "Slice",
+              "fieldset" : "Header",
+              "description" : "Header menu",
+              "icon" : "insert_link",
+              "non-repeat" : {
+                "label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "paragraph",
+                    "label" : "Label",
+                    "placeholder" : "Enter Link Label..."
+                  }
+                },
+                "link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Link",
+                    "placeholder" : "Select Link..."
+                  }
+                }
+              },
+              "repeat" : {
+                "sub_nav_link_label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "paragraph",
+                    "label" : "Sub Nav Link Label",
+                    "placeholder" : "Enter Sub Nav Link Label..."
+                  }
+                },
+                "sub_nav_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Sub Nav Link",
+                    "placeholder" : "Select Sub Nav Link..."
+                  }
+                }
+              },
+              "display" : "list"
+            },
+            "footer" : {
+              "type" : "Slice",
+              "fieldset" : "Footer",
+              "description" : "Footer menu",
+              "icon" : "insert_link",
+              "non-repeat" : {
+                "label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "paragraph",
+                    "label" : "Label",
+                    "placeholder" : "Enter Link Label..."
+                  }
+                },
+                "link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Link",
+                    "placeholder" : "Select Link..."
+                  }
+                }
+              },
+              "repeat" : {
+                "sub_nav_link_label" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "paragraph",
+                    "label" : "Sub Nav Link Label",
+                    "placeholder" : "Enter Sub Nav Link Label..."
+                  }
+                },
+                "sub_nav_link" : {
+                  "type" : "Link",
+                  "config" : {
+                    "label" : "Sub Nav Link",
+                    "placeholder" : "Select Sub Nav Link..."
+                  }
+                }
+              },
+              "display" : "list"
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,288 @@
+{
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "City"
+        }
+      },
+      "hero_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1920,
+            "height": 1080
+          },
+          "thumbnails": [
+            {
+              "name": "tablet",
+              "width": 1536,
+              "height": 2048
+            },
+            {
+              "name": "phone",
+              "width": 750,
+              "height": 1334
+            }
+          ],
+          "label": "Hero Image"
+        }
+      },
+      "page_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading1",
+          "label": "Page Title",
+          "placeholder": "Page title"
+        }
+      },
+      "divider_and_button_color": {
+        "type": "Color",
+        "config": {
+          "label": "Divider and button color"
+        }
+      },
+      "page_description": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "label": "Page Description",
+          "placeholder": "Page description"
+        }
+      },
+      "button_label": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+          "label": "Button label",
+          "placeholder": "Click Here"
+        }
+      },
+      "button_link": {
+        "type": "Link",
+        "config": {
+          "label": "Button Link",
+          "placeholder": "Select the link"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "banner_with_caption": [],
+            "locations": [],
+            "section_title": [],
+            "smaller_cta": [],
+            "comparison_table": [],
+            "cta": [],
+            "text_with_button": [],
+            "features_with_images": [],
+            "map": [],
+            "building": []
+          },
+          "choices": {
+            "building": {
+              "type": "Slice",
+              "fieldset": "Building Cards",
+              "description": "Summary of building features",
+              "icon": "location_city",
+              "display": "grid",
+              "non-repeat": {
+                "city": {
+                  "type": "Text",
+                  "config": {
+                    "label": "city"
+                  }
+                },
+                "neighbourhood": {
+                  "type": "Text",
+                  "config": {
+                    "label": "neighbourhood"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "cta": {
+              "type": "Slice",
+              "fieldset": "CTA",
+              "description": "Full size CTA with background color",
+              "icon": "touch_app",
+              "display": "list",
+              "non-repeat": {
+                "cta_background_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "CTA Background Color"
+                  }
+                },
+                "cta_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                    "label": "CTA_text"
+                  }
+                },
+                "cta_button": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                    "label": "CTA Button"
+                  }
+                },
+                "cta_button_link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "CTA Button Link"
+                  }
+                },
+                "cta_button_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "CTA Button Color"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "multimap": {
+              "type": "Slice",
+              "fieldset": "Multi Map",
+              "description": "Map of properties",
+              "icon": "map",
+              "display": "list",
+              "non-repeat": {
+                "marker": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 30,
+                      "height": 43
+                    },
+                    "thumbnails": [],
+                    "label": "marker"
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "Social Cards": {
+      "seo_description": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "SEO Description"
+        }
+      },
+      "Social body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "general_card": {
+              "type": "Slice",
+              "fieldset": "General Card",
+              "description": "General Social card for Facebook, LinkedIn, Google+, etc.",
+              "icon": "art_track",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "Title..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "Description..."
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 1200,
+                      "height": 650
+                    },
+                    "thumbnails": [],
+                    "label": "Image"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "twitter_card": {
+              "type": "Slice",
+              "fieldset": "Twitter Card",
+              "description": "Twitter summary card with image",
+              "icon": "subtitles",
+              "non-repeat": {
+                "card_type": {
+                  "type": "Select",
+                  "config": {
+                    "options": [
+                      "Standard Summary Card",
+                      "Summary Card with Large Image"
+                    ],
+                    "default_value": "Standard Summary Card",
+                    "label": "Card type"
+                  }
+                },
+                "twitter_handle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Twitter Handle",
+                    "placeholder": "Twitter handle..."
+                  }
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Title",
+                    "placeholder": "Twitter Card Title..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "Twitter Card Description..."
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 300,
+                      "height": 300
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "large_image",
+                        "width": 600,
+                        "height": 314
+                      }
+                    ],
+                    "label": "Image"
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    }
+  }
