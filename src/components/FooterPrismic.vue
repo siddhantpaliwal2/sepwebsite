@@ -5,10 +5,7 @@
         <h3>
           sigma eta pi
         </h3>
-        <a href="#">
-          info@mysite.com
-        </a>
-        <p>©2022 by sigma eta pi. Proudly created with Wix.com</p>
+        <p>©2022 by sigma eta pi.</p>
       </div>
     </div>
   </footer>
