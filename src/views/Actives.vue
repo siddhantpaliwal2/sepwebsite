@@ -47,23 +47,13 @@ export default {
           title: 'Tau Class',
           item: [
             {
-              image: 'executives-img-1.png',
-              title: 'NEHA BHONGIR',
+              image: 'Neha Bhongir.jpg',
+              title: 'Neha Bhongir',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
-              image: 'executives-img-2.png',
-              title: 'BEN MYERS',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
-            },
-            {
-              image: 'executives-img-3.png',
-              title: 'ELI PELLOT',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
-            },
-            {
-              image: 'executives-img-3.png',
-              title: 'BEN MYERS',
+              image: 'Anu.jpg',
+              title: 'Anu Shivakumar',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
           ]
@@ -73,22 +63,37 @@ export default {
           item: [
             {
               image: 'executives-img-1.png',
-              title: 'NEHA BHONGIR',
+              title: 'Austin Pham',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
-              image: 'executives-img-2.png',
-              title: 'BEN MYERS',
+              image: 'Brian.jpg',
+              title: 'Brian Roysar',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Ashton.jpg',
+              title: 'Ashton Yuan',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'ELI PELLOT',
+              title: 'Cynthia Gong',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Eleanor.jpg',
+              title: 'Eleanor Pae',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'BEN MYERS',
+              title: 'Elli Pellot',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Ringy Zhang',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
           ]
@@ -98,22 +103,47 @@ export default {
           item: [
             {
               image: 'executives-img-1.png',
-              title: 'NEHA BHONGIR',
+              title: 'Dakota Edison',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-2.png',
-              title: 'BEN MYERS',
+              title: 'Emily Ng',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'ELI PELLOT',
+              title: 'George Ma',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Jacob.jpg',
+              title: 'Jacob John',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'BEN MYERS',
+              title: 'Melissa Chen',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Natasha.jpg',
+              title: 'Natasha Cheung',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Neal.jpg',
+              title: 'Neal Agrawal',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Pallavi.jpg',
+              title: 'Pallavi Jayaraman',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Varun Patro',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
           ]
@@ -123,22 +153,57 @@ export default {
           item: [
             {
               image: 'executives-img-1.png',
-              title: 'NEHA BHONGIR',
+              title: 'Aanya Tanti',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-2.png',
-              title: 'BEN MYERS',
+              title: 'Ben Myers',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Christian.jpg',
+              title: 'Christian Millar',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'ELI PELLOT',
+              title: 'Dylan Kostovick',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Kele.jpg',
+              title: 'Kele Onuoha',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'BEN MYERS',
+              title: 'Mithil Chakraborty',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Natalia.jpg',
+              title: 'Natalia Luzuriaga',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Noah Justice',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Tejes.jpg',
+              title: 'Tejes Srivalsan',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Vicky Jen',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'Yeon.jpg',
+              title: 'Yeon Joo Nam',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
           ]
@@ -146,49 +211,120 @@ export default {
         {
           title: 'Psi Class',
           item: [
-            {
+          {
               image: 'executives-img-1.png',
-              title: 'NEHA BHONGIR',
+              title: 'Andrea Nuñez Guido',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-2.png',
-              title: 'BEN MYERS',
+              title: 'Anish Ravilla',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'ELI PELLOT',
+              title: 'Emily Glazer',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'BEN MYERS',
+              title: 'Grace Yang',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Ivan Sit',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Jason Inaba',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Juskeerat Anand',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Kiel Messinger',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Lance Ding',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Sophie Waszkelewicz',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
           ]
         },
+        
         {
           title: 'Alpha Alpha Class',
           item: [
             {
               image: 'executives-img-1.png',
-              title: 'NEHA BHONGIR',
+              title: 'Agastya Rao',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-2.png',
-              title: 'BEN MYERS',
+              title: 'Allie Young',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'ELI PELLOT',
+              title: 'Avery Pak',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
             {
               image: 'executives-img-3.png',
-              title: 'BEN MYERS',
+              title: 'Camille Chou',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Eden Tan',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Gregorio Marinez',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Janak Sunil',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Lindsey Lee',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Makena Silva',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Molly Smith',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Xinyan Lu',
+              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+            },
+            {
+              image: 'executives-img-3.png',
+              title: 'Young-Ghee Hong',
               description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
             },
           ]
