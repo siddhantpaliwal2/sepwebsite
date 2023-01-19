@@ -13,9 +13,7 @@
                   <p>Our members have started ventures in every industry from education to technology. Every one of our
                     members has a demonstrable passion for learning, driving change, and self-improvement, but none of
                     them go through it alone.</p>
-                  <button class="btn ct-button">
-                    Join Us
-                  </button>
+                    <router-link to = "/recruitment" class = "btn ct-button">Join Us </router-link>
                 </div>
               </div>
             </div>
@@ -29,9 +27,7 @@
           <div class="dream-main text-center">
             <h1>Dare to Dream</h1>
             <p>Founded in 2010 at UCLA. 40+ Active Members. 10+ Active Startups. </p>
-            <button class="btn ct-button">
-              <router-link to="/executives" class="">Our Brothers</router-link>
-            </button>
+              <router-link to="/executives" class="btn ct-button">Our Brothers</router-link>
           </div>
         </div>
       </div>
@@ -103,7 +99,7 @@
                                 <div class="review-item-content">
                                   <p>"Testimonials are a great way to showcase positive feedback you've received. Click
                                     to edit and add yours."</p>
-                                  <span>Simone Woods</span>
+                                  
                                 </div>
                               </div>
                             </div>
@@ -130,7 +126,7 @@
                                 <div class="review-item-content">
                                   <p>"Testimonials are a great way to showcase positive feedback you've received. Click
                                     to edit and add yours."</p>
-                                  <span>Simone Woods</span>
+                         
                                 </div>
                               </div>
                             </div>
@@ -145,6 +141,9 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class = "whoweare-section">
+      
     </section>
     <section class="community-section">
       <div class="community-inner-section">
@@ -262,10 +261,13 @@ export default {
   min-width: 142px;
   border: 1px solid #282626;
   border-radius: 0;
-  padding: 0;
-  font-size: 14px;
+  padding: 12px;
+  padding-top: 25px;
+  font-size: 16px;
   font-family: 'AvenirLT';
+  align-content: center;
   font-weight: 200;
+  text-decoration-color: #fff;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   background-color: #282626;
@@ -299,8 +301,8 @@ export default {
 }
 
 .dream-main .ct-button {
-  background-color: #607980;
-  border-color: #607980;
+  background-color: #282626;
+  border-color: #282626;
 }
 
 .dream-main .ct-button a {
@@ -336,7 +338,7 @@ export default {
 }
 
 .review-inner-item {
-  background-color: rgb(255, 248, 107);
+  background-color: #282626;
   padding: 10px;
   min-height: 234px;
   display: flex;
@@ -351,14 +353,14 @@ export default {
 }
 
 .review-inner-item .review-item-img svg [data-color="1"] {
-  fill: #9D6200;
+  fill: #fff;
 }
 
 .review-inner-item .review-item-content p {
-  color: #9D6200;
+  color: #fff;
   font-size: 14px;
   font-family: 'Helvetica';
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 0em;
   line-height: normal;
   margin-bottom: 27px;

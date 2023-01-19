@@ -4,7 +4,7 @@
       <div class="container mr-0">
         <nav class="navbar navbar-expand-lg">
           <router-link to="/home" class="logo">
-            <img src="../assets/img/logo.png" alt="">
+            <img src="../assets/img/SEP_logo.png" alt="">
             <span>SIGMA ETA PI</span>
           </router-link>
           <button type="button" data-toggle="collapse" data-target="#navbarmenuContent"
@@ -31,7 +31,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <router-link to="/bruintank" class="menu-maintitle nav-link">Bruin Tank</router-link>
+                <router-link to="/bruintank" class="menu-maintitle nav-link">BruinTank</router-link>
               </li>
               <li class="nav-item dropdown">
                 <router-link to="/recruitment" class="menu-maintitle nav-link">Recruitment</router-link>
