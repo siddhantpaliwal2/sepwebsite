@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="community-header">
-      <h1>Our Community</h1>
+      <h1>Join our Brotherhood</h1>
     </div>
     <div class="col-sm-12">
       <div class="community-slider">

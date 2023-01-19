@@ -33,8 +33,10 @@ export default {
 
 .footer-inner h3 {
   font-size: 22px;
+  text-align: left;
   color: #fff;
   margin-bottom: 22px;
+  margin-left: 90px;
 }
 
 .footer-inner a {
@@ -47,6 +49,8 @@ export default {
 
 .footer-inner p {
   font-size: 14px;
+  text-align: left;
+  margin-left: 90px;
   color: #fff;
   font-family: 'AvenirLT';
 }

@@ -73,7 +73,7 @@
               <div class="col-md-6">
                 <div class="testimonial-right">
                   <div class="testimonial-inner-right">
-                    <h2>Upcoming Events</h2>
+                    <h2>Who we are</h2>
                     <div class="testimonial-review">
                       <div class="testimonial-inner-review">
                         <div class="row">
@@ -142,8 +142,25 @@
         </div>
       </div>
     </section>
-    <section class = "whoweare-section">
-      
+    <section class = "wherewework-section">
+        <div class = "wherewework-inner-section">
+          <div class="container">
+            <div class="wherewework-main text-center">
+              <h1>Where we work</h1>
+              <p>Place for pictures </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "founded-section">
+      <div class = "founded-inner-section">
+        <div class="container">
+          <div class="founded-main text-center">
+            <h1>What we've founded</h1>
+            <p>Place for pictures </p>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="community-section">
       <div class="community-inner-section">
@@ -502,6 +519,51 @@ export default {
   font-weight: 300;
 }
 
+.wherewework-inner-section {
+  min-height: 750px;
+  margin-top: auto;
+  align-items: center;
+  background-color: rgba(248, 248, 248);
+}
+
+.wherewework-main h1 {
+  font-size: 56px;
+  padding-top: 30px;
+  text-align: center;
+  
+  margin-bottom: 20px;
+  font-weight: 400;
+  
+}
+
+.wherewework-main p {
+  font-size: 16px;
+  margin-top: 100px;
+  font-family: 'AvenirLT';
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.founded-inner-section {
+  min-height: 500px;
+  margin-top: 30px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.founded-main h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.founded-main p {
+  font-size: 16px;
+  margin-top: 100px;
+  font-family: 'AvenirLT';
+  font-weight: 600;
+  color: #3a3a3a;
+}
 @media (max-width: 1480px) {
   .hero-box-inner-section {
     padding: 50px 100px;
