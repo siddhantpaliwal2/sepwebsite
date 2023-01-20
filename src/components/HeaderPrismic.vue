@@ -4,8 +4,8 @@
       <div class="container mr-0">
         <nav class="navbar navbar-expand-lg">
           <router-link to="/home" class="logo">
-            <img src="../assets/img/SEP_logo.png" alt="">
-            <span>SIGMA ETA PI</span>
+            <img src="../assets/img/sepfinallogo.jpg" alt="">
+     
           </router-link>
           <button type="button" data-toggle="collapse" data-target="#navbarmenuContent"
             aria-controls="navbarmenuContent" aria-expanded="false" aria-label="Toggle navigation"
@@ -22,7 +22,7 @@
                 <div aria-labelledby="navbarDropdown" class="dropdown-menu">
                   <ul>
                     <li>
-                      <router-link to="/executives" class="menu-subtitle dropdown-item">Executive</router-link>
+                      <router-link to="/executives" class="menu-subtitle dropdown-item">Executives</router-link>
                     </li>
                     <li>
                       <router-link to="/actives" class="menu-subtitle dropdown-item">Actives</router-link>
@@ -69,6 +69,7 @@ export default {
 
 .header-menu .logo img {
   margin-right: 25px;
+  margin-left: 10px;
 }
 
 .header-menu .logo span {
@@ -76,11 +77,12 @@ export default {
 }
 
 .header-menu ul.navbar-nav li.nav-item .nav-link {
-  font-size: 14px;
-  padding: 0 10px;
+  font-size: 17px;
+  margin-top: 15px;
+  padding: 0 25px;
   color: #000;
-  font-weight: 200;
-  font-family: 'AvenirLT';
+  font-weight: 50;
+  font-family: 'Poppins';
 }
 
 .header-menu ul.navbar-nav li.nav-item ul li a.menu-subtitle {

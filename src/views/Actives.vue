@@ -49,12 +49,12 @@ export default {
             {
               image: 'Neha Bhongir.jpg',
               title: 'Neha Bhongir',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computational & Systems Biology'
             },
             {
               image: 'Anu.jpg',
               title: 'Anu Shivakumar',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
           ]
         },
@@ -64,37 +64,37 @@ export default {
             {
               image: 'executives-img-1.png',
               title: 'Austin Pham',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Linguistics and Computer Science, Business Economics, Statistics'
             },
             {
               image: 'Brian.jpg',
               title: 'Brian Roysar',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science, Applied Mathematics'
             },
             {
               image: 'Ashton.jpg',
               title: 'Ashton Yuan',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Communications, Public Affairs'
             },
             {
               image: 'executives-img-3.png',
               title: 'Cynthia Gong',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Statistics'
             },
             {
               image: 'Eleanor.jpg',
               title: 'Eleanor Pae',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computational & Systems Biology'
             },
             {
               image: 'executives-img-3.png',
               title: 'Elli Pellot',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Cognitive Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Ringy Zhang',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Cognitive Science, Philosophy'
             },
           ]
         },
@@ -104,47 +104,47 @@ export default {
             {
               image: 'executives-img-1.png',
               title: 'Dakota Edison',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'executives-img-2.png',
               title: 'Emily Ng',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computational Biology '
             },
             {
               image: 'executives-img-3.png',
               title: 'George Ma',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'Jacob.jpg',
               title: 'Jacob John',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Bioengineering'
             },
             {
               image: 'executives-img-3.png',
               title: 'Melissa Chen',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science'
             },
             {
               image: 'Natasha.jpg',
               title: 'Natasha Cheung',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'Neal.jpg',
               title: 'Neal Agrawal',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Psychobiology'
             },
             {
               image: 'Pallavi.jpg',
               title: 'Pallavi Jayaraman',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Economics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Varun Patro',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Chemical Engineering'
             },
           ]
         },
@@ -154,57 +154,57 @@ export default {
             {
               image: 'executives-img-1.png',
               title: 'Aanya Tanti',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Psychobiology, Economics'
             },
             {
               image: 'executives-img-2.png',
               title: 'Ben Myers',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Mathematics'
             },
             {
               image: 'Christian.jpg',
               title: 'Christian Millar',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Mechanical Engineering'
             },
             {
               image: 'executives-img-3.png',
               title: 'Dylan Kostovick',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Economics'
             },
             {
               image: 'Kele.jpg',
               title: 'Kele Onuoha',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Economics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Mithil Chakraborty',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Bioengineering'
             },
             {
               image: 'Natalia.jpg',
               title: 'Natalia Luzuriaga',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Noah Justice',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'Tejes.jpg',
               title: 'Tejes Srivalsan',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Vicky Jen',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Design Media Arts'
             },
             {
               image: 'Yeon.jpg',
               title: 'Yeon Joo Nam',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Design Media Arts'
             },
           ]
         },
@@ -214,52 +214,52 @@ export default {
           {
               image: 'executives-img-1.png',
               title: 'Andrea Nuñez Guido',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Global Studies, Labor Studies'
             },
             {
               image: 'executives-img-2.png',
               title: 'Anish Ravilla',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Statistics, Cognitive Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Emily Glazer',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Microbiology, Immunology, and Molecular Genetics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Grace Yang',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Cognitive Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Ivan Sit',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Jason Inaba',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Juskeerat Anand',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science and Engineering'
             },
             {
               image: 'executives-img-3.png',
               title: 'Kiel Messinger',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Economics, Statistics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Lance Ding',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Mathematics of Computation'
             },
             {
               image: 'executives-img-3.png',
               title: 'Sophie Waszkelewicz',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Cognitive Science'
             },
           ]
         },
@@ -270,62 +270,62 @@ export default {
             {
               image: 'executives-img-1.png',
               title: 'Agastya Rao',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Statistics, Business Economics'
             },
             {
               image: 'executives-img-2.png',
               title: 'Allie Young',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Economics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Avery Pak',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Cognitive Science, Communication'
             },
             {
               image: 'executives-img-3.png',
               title: 'Camille Chou',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Eden Tan',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Gregorio Marinez',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Janak Sunil',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Economics, Cognitive Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Lindsey Lee',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Biochemistry'
             },
             {
               image: 'executives-img-3.png',
               title: 'Makena Silva',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Molly Smith',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Environmental Science'
             },
             {
               image: 'executives-img-3.png',
               title: 'Xinyan Lu',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Business Economics'
             },
             {
               image: 'executives-img-3.png',
               title: 'Young-Ghee Hong',
-              description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aperiam similique consequuntur, quis'
+              description: 'Computer Science and Engineering'
             },
           ]
         }
@@ -371,15 +371,15 @@ export default {
 
 .actives-item-main-inner .actives-item .actives-item-inner .actives-content h3 {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 .actives-item-main-inner .actives-item .actives-item-inner .actives-content p {
-  line-height: 1.375em;
-  font-size: 15px;
+  line-height: 1.5em;
+  font-size: 17px;
   font-family: 'AvenirLT';
-  font-weight: 200;
+  font-weight: 400;
   display: block;
   display: -webkit-box;
   margin-bottom: 0;
@@ -393,7 +393,7 @@ export default {
 .actives-item-main-header h3 {
   width: fit-content;
   font-size: 29px;
-  font-weight: 600;
+  font-weight: bold;
   position: relative;
   margin-left: 10px;
   font-family: 'Poppins';
