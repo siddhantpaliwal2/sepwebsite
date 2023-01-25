@@ -237,7 +237,7 @@ export default {
   min-height: 690px;
   display: flex;
   align-items: center;
-  background-image: url(../assets/img/hero-bg-img.png);
+  background-image: url(../assets/img/skyline.jpeg) ;
   background-repeat: no-repeat;
 }
 
@@ -249,6 +249,7 @@ export default {
   justify-content: center;
   padding: 50px 190px;
   background-color: #fff;
+  opacity: 0.8;
 }
 
 .hero-box-inner-section h1 {

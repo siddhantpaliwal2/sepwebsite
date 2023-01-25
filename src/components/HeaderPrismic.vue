@@ -134,6 +134,7 @@ export default {
     left: 0;
     z-index: 10;
     background-color: #fff;
+   
     overflow: hidden;
   }
 

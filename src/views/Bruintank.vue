@@ -5,7 +5,7 @@
       <div class="bruintank-inner-section d-flex align-items-center flex-wrap">
         <div class="bruintank-item bruintank-left">
           <div class="bruintank-inner-left">
-            <img src="../assets/img/bruintank-img-1.png" alt="">
+            <img src="../assets/img/Bruintank.png" alt="">
           </div>
         </div>
         <div class="bruintank-item bruintank-right">
@@ -20,7 +20,7 @@
               expected to be held during Winter Quarter 2023. More details are yet to be announced. Contact us below to
               for more information.
             </p>
-            <button class="btn">Contact</button>
+            <button  class= "btn" > Contact </button>
           </div>
         </div>
       </div>
@@ -84,6 +84,7 @@ export default {
   border: 1px solid #000;
   border-radius: 0;
   padding: 0;
+  padding-top: 10px;
   font-size: 14px;
   font-family: 'AvenirLT';
   font-weight: 200;
