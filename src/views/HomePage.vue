@@ -193,7 +193,7 @@ export default {
     return {
       records: [
         {
-          'image': 'img-1.png',
+          'image': 'SEP_1.jpg',
           'type': 'image',
         },
         {
