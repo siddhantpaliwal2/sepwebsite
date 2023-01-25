@@ -5,13 +5,22 @@
 		<header-prismic />
 		<section class="executives-section">
 			<div class="executives-inner-section">
-				<h1 class="text-center">{{ title }}</h1>
+				<div class = "executives-header">
+				<h3 class="executives-header">{{ title }}</h3>
+				<p class = "executives-header"> {{subtitle }}</p>
+			    </div>
 				<div class="d-flex flex-wrap justify-content-center executives-item-main px-3">
 					<div class="executives-item"  v-for="(item, index) in records" :key="'rec'+index">
 						<div class="executives-inner-item">
 							<img :src="require(`../assets/img/${item.image}`)" :alt="item.image">
 							<div class="executives-name">
 								<h2>{{ item.title }}</h2>
+								<div class = "executives-role"> 
+									<p> {{ item.role }}</p>
+								</div>
+								<div class = "executives-description"> 
+									<p> {{ item.description }}</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -36,19 +45,93 @@ export default {
 	data() {
 		return {
       title:'EXECUTIVE BOARD',
+	  subtitle: 'Full list of Executives',
 			records: [
         {
-          'image': 'executives-img-1.png',
-          'title': 'NEHA BHONGIR'
+          'image': 'Neha Bhongir.jpg',
+          'title': 'Neha Bhongir',
+		  'role' : 'President',
+		  'description' : 'Lorem ipsum'
         },
         {
-          'image': 'executives-img-2.png',
-          'title': 'ELI PELLOT'
+          'image': 'Elli.jpg',
+          'title': 'Eli Pellot',
+		  'role' : 'President',
+		  'description' : 'Lorem ipsum'
         },
         {
+          'image': 'Pallavi.jpg',
+          'title': 'Pallavi Jayaraman',
+		  'role' : 'Vice President of Professional Affairs',
+		  'description' : 'Lorem ipsum'
+        },
+		{
           'image': 'executives-img-3.png',
-          'title': 'BEN MYERS'
-        }
+          'title': 'Cynthia Gong',
+		  'role' : 'Vice President of Professional Affairs',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'executives-img-3.png',
+          'title': 'Ben Myers',
+		  'role' : 'Director of Operations and Technology',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'Neal.jpg',
+          'title': 'Neal Agrawal',
+		  'role' : 'Director of Finance',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'executives-img-3.png',
+          'title': 'Melissa Chen',
+		  'role' : 'Director of Marketing',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'executives-img-3.png',
+          'title': 'Vicky Jen',
+		  'role' : 'Director of Media',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'Yeon.jpg',
+          'title': 'Yeon Joo Naam',
+		  'role' : 'Director of Design',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'Kiel.jpg',
+          'title': 'Kiel Messinger',
+		  'role' : 'Rush Chair',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'executives-img-3.png',
+          'title': 'Emily Glazer',
+		  'role' : 'Rush Chair',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'Varun.jpg',
+          'title': 'Varun Patro',
+		  'role' : 'Pledgemaster',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'Jacob.jpg',
+          'title': 'Jacob John',
+		  'role' : 'Pledgemaster',
+		  'description' : 'Lorem ipsum'
+        },
+		{
+          'image': 'executives-img-3.png',
+          'title': 'Natalia Luzuriaga',
+		  'role' : 'Director of Alumni Relations',
+		  'description' : 'Lorem ipsum'
+        },
+		
       ],
 		}
 	},
@@ -102,12 +185,32 @@ export default {
 }
 </script>
 <style>
+
+.executives-inner-section .executives-header {
+  text-align: center;
+
+  align-items: center;
+}
+
+.executives-inner-section .executives-header h3 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.executives-inner-section .executives-header p {
+  font-size: 18px;
+  font-family: 'AvenirLT';
+  font-weight: 200;
+  text-align: center;
+}
 .executives-inner-section {
 	margin-bottom: 30px;
 }
 
 .executives-inner-section h1 {
-	margin: 60px 0 120px 0;
+	margin: 20px;
 	font-size: 40px;
 	font-weight: 400;
 }
@@ -133,6 +236,7 @@ export default {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	z-index: 2;
 }
 
@@ -149,10 +253,29 @@ export default {
 }
 
 .executives-inner-item .executives-name h2 {
-	margin: 0;
+
 	font-size: 22px;
 	font-weight: 400;
-	margin-bottom: 18px;
+	
+}
+.executives-inner-item .executives-role p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+ .executives-subtitle h2 {
+	font-size: 18px;
+    font-family: 'AvenirLT';
+    font-weight: 200;
+	
+}
+.executives-inner-item .executives-description p {
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+	
 }
 @media(max-width: 1200px){
 	.executives-inner-section .executives-item{

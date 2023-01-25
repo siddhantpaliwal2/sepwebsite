@@ -335,17 +335,14 @@ export default {
 }
 </script>
 <style>
-.actives-item-main {
-  margin-bottom: 40px;
-}
 
 .actives-header {
   text-align: center;
-  margin: 60px 0 30px 0;
+  
 }
 
 .actives-header h3 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 600;
   margin-bottom: 10px;
 }
