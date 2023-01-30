@@ -62,7 +62,7 @@ export default {
           title: 'Upsilon Class',
           item: [
             {
-              image: 'executives-img-1.png',
+              image: 'Austin.jpg',
               title: 'Austin Pham',
               description: 'Linguistics and Computer Science, Business Economics, Statistics'
             },
@@ -72,12 +72,12 @@ export default {
               description: 'Computer Science, Applied Mathematics'
             },
             {
-              image: 'Ashton.jpg',
+              image: 'ashton.jpg',
               title: 'Ashton Yuan',
               description: 'Communications, Public Affairs'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Cynthia.jpg',
               title: 'Cynthia Gong',
               description: 'Statistics'
             },
@@ -87,12 +87,12 @@ export default {
               description: 'Computational & Systems Biology'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Elli.jpg',
               title: 'Elli Pellot',
               description: 'Cognitive Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Ringy.jpg',
               title: 'Ringy Zhang',
               description: 'Cognitive Science, Philosophy'
             },
@@ -107,12 +107,12 @@ export default {
               description: 'Business Economics'
             },
             {
-              image: 'executives-img-2.png',
+              image: 'Ng.jpg',
               title: 'Emily Ng',
               description: 'Computational Biology '
             },
             {
-              image: 'executives-img-3.png',
+              image: 'GeorgeMa.jpg',
               title: 'George Ma',
               description: 'Business Economics'
             },
@@ -122,7 +122,7 @@ export default {
               description: 'Bioengineering'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Melissa.jpg',
               title: 'Melissa Chen',
               description: 'Computer Science'
             },
@@ -142,7 +142,7 @@ export default {
               description: 'Economics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Varun.jpg',
               title: 'Varun Patro',
               description: 'Chemical Engineering'
             },
@@ -152,12 +152,12 @@ export default {
           title: 'Chi Class',
           item: [
             {
-              image: 'executives-img-1.png',
+              image: 'Aanya.jpg',
               title: 'Aanya Tanti',
               description: 'Psychobiology, Economics'
             },
             {
-              image: 'executives-img-2.png',
+              image: 'Ben.jpg',
               title: 'Ben Myers',
               description: 'Mathematics'
             },
@@ -167,7 +167,7 @@ export default {
               description: 'Mechanical Engineering'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'dylan.jpg',
               title: 'Dylan Kostovick',
               description: 'Economics'
             },
@@ -177,7 +177,7 @@ export default {
               description: 'Economics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'mithil.jpg',
               title: 'Mithil Chakraborty',
               description: 'Bioengineering'
             },
@@ -187,7 +187,7 @@ export default {
               description: 'Computer Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'noah.jpg',
               title: 'Noah Justice',
               description: 'Business Economics'
             },
@@ -197,7 +197,7 @@ export default {
               description: 'Computer Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Vicky.jpg',
               title: 'Vicky Jen',
               description: 'Design Media Arts'
             },
@@ -212,7 +212,7 @@ export default {
           title: 'Psi Class',
           item: [
           {
-              image: 'executives-img-1.png',
+              image: 'andrea.jpg',
               title: 'Andrea Nuñez Guido',
               description: 'Global Studies, Labor Studies'
             },
@@ -222,42 +222,42 @@ export default {
               description: 'Statistics, Cognitive Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Emily.jpg',
               title: 'Emily Glazer',
               description: 'Microbiology, Immunology, and Molecular Genetics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'grace.jpg',
               title: 'Grace Yang',
               description: 'Cognitive Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'ivan.jpg',
               title: 'Ivan Sit',
               description: 'Computer Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Jason.jpg',
               title: 'Jason Inaba',
               description: 'Computer Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'skeet.jpg',
               title: 'Juskeerat Anand',
               description: 'Computer Science and Engineering'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Kiel.jpg',
               title: 'Kiel Messinger',
               description: 'Economics, Statistics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'Lance.jpg',
               title: 'Lance Ding',
               description: 'Mathematics of Computation'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'sophie.jpg',
               title: 'Sophie Waszkelewicz',
               description: 'Cognitive Science'
             },
@@ -268,62 +268,62 @@ export default {
           title: 'Alpha Alpha Class',
           item: [
             {
-              image: 'executives-img-1.png',
+              image: 'aggy.jpg',
               title: 'Agastya Rao',
               description: 'Statistics, Business Economics'
             },
             {
-              image: 'executives-img-2.png',
+              image: 'Allie.jpg',
               title: 'Allie Young',
               description: 'Economics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'avery.jpg',
               title: 'Avery Pak',
               description: 'Cognitive Science, Communication'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'cami.jpg',
               title: 'Camille Chou',
               description: 'Computer Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'eden.jpg',
               title: 'Eden Tan',
-              description: 'Business Economics'
+              description: 'Cognitive Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'greg.jpg',
               title: 'Gregorio Marinez',
               description: 'Business Economics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'janak.jpg',
               title: 'Janak Sunil',
               description: 'Economics, Cognitive Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'lindsey.jpg',
               title: 'Lindsey Lee',
               description: 'Biochemistry'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'makena.jpg',
               title: 'Makena Silva',
               description: 'Business Economics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'molly.jpg',
               title: 'Molly Smith',
               description: 'Environmental Science'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'xinyan.jpg',
               title: 'Xinyan Lu',
               description: 'Business Economics'
             },
             {
-              image: 'executives-img-3.png',
+              image: 'yg.jpg',
               title: 'Young-Ghee Hong',
               description: 'Computer Science and Engineering'
             },
@@ -338,11 +338,11 @@ export default {
 
 .actives-header {
   text-align: center;
-  
+  margin: 60px 0 30px 0;
 }
 
 .actives-header h3 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 10px;
 }

@@ -66,13 +66,13 @@ export default {
 		  'description' : 'Lorem ipsum'
         },
 		{
-          'image': 'executives-img-3.png',
+          'image': 'Cynthia.jpg',
           'title': 'Cynthia Gong',
 		  'role' : 'Vice President of Professional Affairs',
 		  'description' : 'Lorem ipsum'
         },
 		{
-          'image': 'executives-img-3.png',
+          'image': 'Ben.jpg',
           'title': 'Ben Myers',
 		  'role' : 'Director of Operations and Technology',
 		  'description' : 'Lorem ipsum'
@@ -84,13 +84,13 @@ export default {
 		  'description' : 'Lorem ipsum'
         },
 		{
-          'image': 'executives-img-3.png',
+          'image': 'Melissa.jpg',
           'title': 'Melissa Chen',
 		  'role' : 'Director of Marketing',
 		  'description' : 'Lorem ipsum'
         },
 		{
-          'image': 'executives-img-3.png',
+          'image': 'Vicky.jpg',
           'title': 'Vicky Jen',
 		  'role' : 'Director of Media',
 		  'description' : 'Lorem ipsum'
@@ -108,25 +108,14 @@ export default {
 		  'description' : 'Lorem ipsum'
         },
 		{
-          'image': 'executives-img-3.png',
+          'image': 'Emily.jpg',
           'title': 'Emily Glazer',
 		  'role' : 'Rush Chair',
 		  'description' : 'Lorem ipsum'
         },
+		
 		{
-          'image': 'Varun.jpg',
-          'title': 'Varun Patro',
-		  'role' : 'Pledgemaster',
-		  'description' : 'Lorem ipsum'
-        },
-		{
-          'image': 'Jacob.jpg',
-          'title': 'Jacob John',
-		  'role' : 'Pledgemaster',
-		  'description' : 'Lorem ipsum'
-        },
-		{
-          'image': 'executives-img-3.png',
+          'image': 'Natalia.jpg',
           'title': 'Natalia Luzuriaga',
 		  'role' : 'Director of Alumni Relations',
 		  'description' : 'Lorem ipsum'
