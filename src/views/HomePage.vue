@@ -21,6 +21,7 @@
         </div>
       </div>
     </section>
+    
     <section class="dream-section">
       <div class="dream-inner-section">
         <div class="container">
@@ -32,15 +33,14 @@
         </div>
       </div>
     </section>
-    <section class="testimonial-section">
-      <div class="testimonial-inner-section">
+    <section class = "whoweare-main-section">
+      <div class = "whoweare-inner-section">
         <div class="container">
-          <div class="testimonial-main">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="testimonial-slider">
-                  <div class="testimonial-inner-slider">
-                    <carousel :per-page="1" :navigationEnabled="true"
+          <div class="whoweare-main text-center">
+            <h1>Who we are</h1>
+            <div class="whoweare-slider">
+                  <div class="whoweare-inner-slider">
+                      <carousel :per-page="1" :navigationEnabled="true"
                       :paginationEnabled="false" :mouse-drag="false">
                         <slide  v-for="(item, index) in records" :key="'classes'+index">
                           <div class="item">
@@ -54,100 +54,23 @@
                                   {{ item.text }}
                                 </video>
                               </div>
-                              <div class="item-like">
-                                <button class="btn like-button">
-                                  <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                                    <path
-                                      d="M8.1816,5.0039 C7.9276,5.0039 7.6696,5.0279 7.4106,5.0759 C5.7326,5.3909 4.3566,6.8479 4.0646,8.6189 C3.9346,9.4039 4.0036,10.2029 4.2616,10.9319 C4.2636,10.9379 4.2656,10.9439 4.2676,10.9499 C5.1716,13.8579 10.2066,17.4019 11.7286,18.4189 C11.8966,18.5329 12.1076,18.5309 12.2746,18.4189 C13.7956,17.4019 18.8266,13.8589 19.7326,10.9499 C19.9966,10.2029 20.0646,9.4039 19.9356,8.6189 C19.6426,6.8479 18.2666,5.3909 16.5896,5.0759 C14.9596,4.7749 13.3646,5.4459 12.4126,6.8369 C12.2256,7.1099 11.7736,7.1099 11.5876,6.8369 C10.7866,5.6669 9.5276,5.0039 8.1816,5.0039 M12.0016,19.5029 C11.7136,19.5029 11.4246,19.4189 11.1726,19.2509 C9.1366,17.8899 4.2966,14.3869 3.3156,11.2559 C3.0036,10.3719 2.9216,9.4039 3.0776,8.4569 C3.4436,6.2429 5.1106,4.4889 7.2266,4.0939 C9.0226,3.7539 10.8006,4.3809 11.9996,5.7409 C13.1996,4.3829 14.9766,3.7569 16.7736,4.0939 C18.8896,4.4899 20.5566,6.2429 20.9216,8.4569 C21.0786,9.4069 20.9956,10.3789 20.6816,11.2659 C19.7116,14.3819 14.8676,17.8889 12.8306,19.2509 C12.5786,19.4189 12.2896,19.5029 12.0016,19.5029"
-                                      fill-rule="evenodd"></path>
-                                  </svg>
-                                </button>
-                              </div>
-                            </div>
                           </div>
-                        </slide>
-                    </carousel>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="testimonial-right">
-                  <div class="testimonial-inner-right">
-                    <h2>Who we are</h2>
-                    <div class="testimonial-review">
-                      <div class="testimonial-inner-review">
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="review-item">
-                              <div class="review-inner-item">
-                                <div class="review-item-img">
-                                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.5 19.999 175 160.002"
-                                    viewBox="12.5 19.999 175 160.002" height="200" width="200"
-                                    xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
-                                    aria-hidden="true" aria-labelledby="svgcid-4i3e9a-a4ugjn">
-                                    <title id="svgcid-4i3e9a-a4ugjn"></title>
-                                    <g>
-                                      <path
-                                        d="M114.733 174.579c45.255-32.506 41.878-73.139 31.072-75.172-9.457-1.355-18.913-4.064-27.018-11.515-15.536-15.576-16.21-40.633-.676-56.208a39.47 39.47 0 0 1 56.064 0c23.641 24.379 12.157 71.787-6.08 101.585-8.105 13.546-19.588 31.154-48.632 46.732l-4.73-5.422z"
-                                        fill="#666664" data-color="1"></path>
-                                      <path
-                                        d="M20.442 174.579c45.255-32.506 41.878-73.139 31.071-75.172-9.457-1.355-18.913-4.064-27.018-11.515-15.536-15.577-16.211-40.634-.676-56.209a39.47 39.47 0 0 1 56.064 0c23.641 24.379 12.157 71.787-6.08 101.585C65.697 146.814 54.215 164.422 25.17 180l-4.728-5.421z"
-                                        fill="#666664" data-color="1"></path>
-                                    </g>
-                                  </svg>
-                                </div>
-                                <div class="review-item-content">
-                                  <p>"Testimonials are a great way to showcase positive feedback you've received. Click
-                                    to edit and add yours."</p>
-                                  
-                                </div>
-                              </div>
-                            </div>
                           </div>
-                          <div class="col-md-6">
-                            <div class="review-item">
-                              <div class="review-inner-item">
-                                <div class="review-item-img">
-                                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.5 19.999 175 160.002"
-                                    viewBox="12.5 19.999 175 160.002" height="200" width="200"
-                                    xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
-                                    aria-hidden="true" aria-labelledby="svgcid-4i3e9a-a4ugjn">
-                                    <title id="svgcid-4i3e9a-a4ugjn"></title>
-                                    <g>
-                                      <path
-                                        d="M114.733 174.579c45.255-32.506 41.878-73.139 31.072-75.172-9.457-1.355-18.913-4.064-27.018-11.515-15.536-15.576-16.21-40.633-.676-56.208a39.47 39.47 0 0 1 56.064 0c23.641 24.379 12.157 71.787-6.08 101.585-8.105 13.546-19.588 31.154-48.632 46.732l-4.73-5.422z"
-                                        fill="#666664" data-color="1"></path>
-                                      <path
-                                        d="M20.442 174.579c45.255-32.506 41.878-73.139 31.071-75.172-9.457-1.355-18.913-4.064-27.018-11.515-15.536-15.577-16.211-40.634-.676-56.209a39.47 39.47 0 0 1 56.064 0c23.641 24.379 12.157 71.787-6.08 101.585C65.697 146.814 54.215 164.422 25.17 180l-4.728-5.421z"
-                                        fill="#666664" data-color="1"></path>
-                                    </g>
-                                  </svg>
-                                </div>
-                                <div class="review-item-content">
-                                  <p>"Testimonials are a great way to showcase positive feedback you've received. Click
-                                    to edit and add yours."</p>
-                         
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                       </slide>
+                      </carousel>        
           </div>
         </div>
+       </div>
+       </div>
       </div>
+      
     </section>
     <section class = "wherewework-section">
         <div class = "wherewework-inner-section">
           <div class="container">
             <div class="wherewework-main text-center">
-              <h1>Where we work</h1>
-              <p>Place for pictures </p>
+              <h1>What we've founded</h1>
+              <img src= "../assets/img/what weve started.png" alt="">
           </div>
         </div>
       </div>
@@ -156,16 +79,19 @@
       <div class = "founded-inner-section">
         <div class="container">
           <div class="founded-main text-center">
-            <h1>What we've founded</h1>
-            <p>Place for pictures </p>
+            <h1>Where we work</h1>
+            <img src= "../assets/img/companies.jpg" alt="">
           </div>
         </div>
       </div>
     </section>
-    <section class="community-section">
-      <div class="community-inner-section">
-        <div class="container">
-          <masonary-slider></masonary-slider>
+    <section class = "wherewework-section">
+        <div class = "wherewework-inner-section">
+          <div class="container">
+            <div class="wherewework-main text-center">
+              <h1>Join our Brotherhood</h1>
+              <masonary-slider></masonary-slider>
+          </div>
         </div>
       </div>
     </section>
@@ -197,24 +123,28 @@ export default {
           'type': 'image',
         },
         {
-          'image': 'slider-video.mp4',
-          'type': 'video',
-          'text': 'Your browser does not support the video tag.'
+          'image': 'SEP_5.jpg',
+          'type': 'image',
+          
         },
         {
-          'image': 'img-2.png',
+          'image': 'SEP_6.jpg',
           'type': 'image',
         },
         {
-          'image': 'img-3.png',
+          'image': 'SEP_7.jpg',
           'type': 'image',
         },
         {
-          'image': 'img-4.png',
+          'image': 'SEP_9.jpg',
           'type': 'image',
         },
         {
-          'image': 'img-5.png',
+          'image': 'SEP_10.jpg',
+          'type': 'image',
+        },
+        {
+          'image': 'SEP_11.jpg',
           'type': 'image',
         },
       ],
@@ -395,6 +325,33 @@ export default {
   max-width: 1400px;
 }
 
+.whoweare-main-section {
+  min-height: 500px;
+  margin-top: 30px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.whoweare-main-section h1{
+  font-size: 56px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.whoweare-inner-section .container{
+  max-width: 1400px
+}
+.whoweare-inner-slider{
+  max-width: 600px;
+  position: relative;
+}
+
+.whoweare-slider{
+  max-width: 600px;
+  position: relative;
+  margin-left: 380px;
+}
+
 .testimonial-inner-slider {
   max-width: 600px;
   position: relative;
@@ -417,6 +374,54 @@ export default {
   height: 100%;
 }
 
+.item .inner-item .item-img {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-height: 300px;
+  max-width: 600px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.item .inner-item .item-img img {
+  width: 100%;
+  align-items: center;
+  max-height: 1000px;
+}
+
+.whoweare-main .inner-item .item-img video {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.whoweare-inner-slider .VueCarousel-navigation-prev {
+  left: 50px;
+  font-size: 0;
+  background-image: url(../assets/img/pre.png);
+  background-size: cover;
+  padding: 0 !important;
+  width: 23px;
+  height: 39px;
+  background-position: center;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  filter: brightness(0) invert(1);
+}
+
+.whoweare-inner-slider .VueCarousel-navigation-next {
+  right: 50px;
+  font-size: 0;
+  background-image: url(../assets/img/next.png);
+  background-size: cover;
+  padding: 0 !important;
+  width: 23px;
+  height: 39px;
+  background-position: top;
+  background-repeat: no-repeat;
+  filter: brightness(0) invert(1);
+}
 .testimonial-inner-slider .VueCarousel-navigation-prev {
   left: 50px;
   font-size: 0;
@@ -441,6 +446,18 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   filter: brightness(0) invert(1);
+}
+.whoweare-inner-slider .VueCarousel-navigation--disabled {
+  display: none;
+  max-height: 300px;
+}
+
+.whoweare-main .inner-item {
+  position: relative;
+  align-items: center;
+  transition: all 0.6s ease;
+  margin: 0 10px;
+  height: 100%;
 }
 
 .testimonial-inner-slider .VueCarousel-navigation--disabled {
@@ -468,6 +485,24 @@ export default {
 }
 
 .testimonial-main .inner-item:hover::before {
+  opacity: 0.5;
+  visibility: visible;
+}
+
+.whoweare-main .inner-item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  transition: all 0.6s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.whoweare-main .inner-item:hover::before {
   opacity: 0.5;
   visibility: visible;
 }
@@ -554,7 +589,6 @@ export default {
 
 .founded-main h1 {
   font-size: 56px;
-  margin-bottom: 20px;
   font-weight: 400;
 }
 
@@ -692,6 +726,10 @@ export default {
   }
 
   .testimonial-inner-section .col-md-6 {
+    padding: 0;
+  }
+
+  .whoweare-inner-section .col-md-6 {
     padding: 0;
   }
 

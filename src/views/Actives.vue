@@ -308,12 +308,12 @@ export default {
               description: 'Biochemistry'
             },
             {
-              image: 'makena.jpg',
+              image: 'Kena.jpg',
               title: 'Makena Silva',
               description: 'Business Economics'
             },
             {
-              image: 'molly.jpg',
+              image: 'molly (1).jpg',
               title: 'Molly Smith',
               description: 'Environmental Science'
             },
