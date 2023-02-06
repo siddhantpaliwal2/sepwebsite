@@ -37,33 +37,10 @@
       <div class = "whoweare-inner-section">
         <div class="container">
           <div class="whoweare-main text-center">
-            <h1>Who we are</h1>
-            <div class="whoweare-slider">
-                  <div class="whoweare-inner-slider">
-                      <carousel :per-page="1" :navigationEnabled="true"
-                      :paginationEnabled="false" :mouse-drag="false">
-                        <slide  v-for="(item, index) in records" :key="'classes'+index">
-                          <div class="item">
-                            <div class="inner-item">
-                              <div  v-if="(item.type=='image')" class="item-img">
-                                <img :src="require(`@/assets/img/masonary_slider/${item.image}`)" alt="">
-                              </div>
-                              <div v-else class="item-img">
-                                <video autoplay loop muted>
-                                  <source :src="require(`@/assets/img/masonary_slider/${item.image}`)" type="video/mp4">
-                                  {{ item.text }}
-                                </video>
-                              </div>
-                          </div>
-                          </div>
-                       </slide>
-                      </carousel>        
+            <img src="../assets/img/masonary_slider/SEP_1.jpg" alt="">       
           </div>
         </div>
-       </div>
-       </div>
-      </div>
-      
+       </div> 
     </section>
     <section class = "wherewework-section">
         <div class = "wherewework-inner-section">
@@ -90,9 +67,30 @@
           <div class="container">
             <div class="wherewework-main text-center">
               <h1>Join our Brotherhood</h1>
-              <masonary-slider></masonary-slider>
+              <div class="brotherhood-slider">
+                  <div class="brotherhood-inner-slider">
+                      <carousel :per-page="1" :navigationEnabled="true"
+                      :paginationEnabled="false" :mouse-drag="false">
+                        <slide  v-for="(item, index) in records" :key="'classes'+index">
+                          <div class="item">
+                            <div class="inner-item">
+                              <div  v-if="(item.type=='image')" class="item-img">
+                                <img :src="require(`@/assets/img/masonary_slider/${item.image}`)" alt="">
+                              </div>
+                              <div v-else class="item-img">
+                                <video autoplay loop muted>
+                                  <source :src="require(`@/assets/img/masonary_slider/${item.image}`)" type="video/mp4">
+                                  {{ item.text }}
+                                </video>
+                              </div>
+                          </div>
+                          </div>
+                       </slide>
+                      </carousel>   
+              </div>
+            </div>   
           </div>
-        </div>
+          </div>
       </div>
     </section>
     <footer-prismic />
@@ -119,16 +117,16 @@ export default {
     return {
       records: [
         {
-          'image': 'SEP_1.jpg',
+          'image': 'SEP_5.jpg',
           'type': 'image',
         },
         {
-          'image': 'SEP_5.jpg',
+          'image': 'SEP_6.jpg',
           'type': 'image',
           
         },
         {
-          'image': 'SEP_6.jpg',
+          'image': 'SEP_3.jpg',
           'type': 'image',
         },
         {
@@ -326,7 +324,7 @@ export default {
 }
 
 .whoweare-main-section {
-  min-height: 500px;
+  height: 800px;
   margin-top: 30px;
   align-items: center;
   background-color: #fff;
@@ -350,6 +348,19 @@ export default {
   max-width: 600px;
   position: relative;
   margin-left: 380px;
+}
+
+.brotherhood-inner-slider{
+  max-width: 1200px;
+  max-height: 800PX;
+  position: relative;
+}
+
+.brotherhood-slider{
+  max-width: 1200px;
+  max-height: 800PX;
+  position: relative;
+  margin-left: 100px;
 }
 
 .testimonial-inner-slider {
@@ -388,6 +399,22 @@ export default {
   width: 100%;
   align-items: center;
   max-height: 1000px;
+}
+
+.brotherhood-slider .brotherhood-inner-slider .item .inner-item .item-img {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-height: 600px;
+  max-width: 1200px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.brotherhood-slider .brotherhood-inner-slider .item .inner-item .item-img img {
+  width: 100%;
+  align-items: center;
+  max-height: 600px;
 }
 
 .whoweare-main .inner-item .item-img video {
@@ -449,7 +476,6 @@ export default {
 }
 .whoweare-inner-slider .VueCarousel-navigation--disabled {
   display: none;
-  max-height: 300px;
 }
 
 .whoweare-main .inner-item {
@@ -502,10 +528,7 @@ export default {
   visibility: hidden;
 }
 
-.whoweare-main .inner-item:hover::before {
-  opacity: 0.5;
-  visibility: visible;
-}
+
 
 .testimonial-main .inner-item .item-like {
   position: absolute;
@@ -556,7 +579,7 @@ export default {
 }
 
 .wherewework-inner-section {
-  min-height: 750px;
+  min-height: 600px;
   margin-top: auto;
   align-items: center;
   background-color: rgba(248, 248, 248);
