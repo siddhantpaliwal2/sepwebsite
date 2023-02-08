@@ -6,7 +6,8 @@
   "author": "rajesh",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && echo '/* /index.html 200' > dist/_redirects"
+    "build": "vue-cli-service build && echo '/* /index.html 200' > dist/_redirects",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
     "@vue/cli-service": "^3.12.1",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "execa": "latest"
   }
 }
