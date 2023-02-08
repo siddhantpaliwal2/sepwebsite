@@ -64,12 +64,12 @@ export default {
             {
               image: 'Austin.jpg',
               title: 'Austin Pham',
-              description: 'Linguistics and Computer Science, Business Economics, Statistics'
+              description: 'Computer Science, Linguistics'
             },
             {
               image: 'Brian.jpg',
               title: 'Brian Roysar',
-              description: 'Computer Science, Applied Mathematics'
+              description: 'Computer Science, Applied Math'
             },
             {
               image: 'ashton.jpg',
@@ -224,7 +224,7 @@ export default {
             {
               image: 'Emily.jpg',
               title: 'Emily Glazer',
-              description: 'Microbiology, Immunology, and Molecular Genetics'
+              description: 'Cognitive Science'
             },
             {
               image: 'grace.jpg',

@@ -1,6 +1,5 @@
 <template>
   <div class="row">
-    
     <div class="col-sm-12">
       <div class="community-slider">
         <div class="community-inner-slider">
@@ -32,6 +31,34 @@ export default {
   data() {
     return {
       slide: 0,
+      sliding: null,
+      records: [
+        {
+          'image': 'img-1.png',
+          'type': 'image',
+        },
+        {
+          'image': 'img-2.png',
+          'type': 'image',
+        },
+        {
+          'image': 'img-2.png',
+          'type': 'image',
+        },
+        {
+          'image': 'img-3.png',
+          'type': 'image',
+        },
+        {
+          'image': 'img-4.png',
+          'type': 'image',
+        },
+        {
+          'image': 'img-5.png',
+          'type': 'image',
+        },
+      ],
+      slide: 1,
       sliding: null,
       records: [
         {
