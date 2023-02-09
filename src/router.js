@@ -41,11 +41,6 @@ export default new Router({
       path: '/recruitment',
       name: 'recruitment',
       component: AsyncRecruitment
-    },
-    {
-      path: '*',
-      name: 'catchAll',
-      component: HomePage
     }
   ],
   scrollBehavior(to, from, savedPosition) {
