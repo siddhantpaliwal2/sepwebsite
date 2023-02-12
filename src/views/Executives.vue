@@ -12,7 +12,7 @@
 				<div class="d-flex flex-wrap justify-content-center executives-item-main px-3">
 					<div class="executives-item"  v-for="(item, index) in records" :key="'rec'+index">
 						<div class="executives-inner-item">
-							<img :src="require(`../assets/img/${item.image}`)" :alt="item.image">
+							<img :src="require(`../assets/img/${item.image}`)" :alt="item.image" style="width:100%;">
 							<div class="executives-name">
 								<h2>{{ item.title }}</h2>
 								<div class = "executives-role"> 

@@ -1,7 +1,7 @@
 <template>
     <div class="actives-item-inner">
       <div class="actives-img">
-        <img :src="require(`@/assets/img/${image}`)" alt="">
+        <img :src="require(`@/assets/img/${image}`)" alt="" class="active-img">
       </div>
       <div class="actives-content">
         <h3>{{ title }}</h3>
