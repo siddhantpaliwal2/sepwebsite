@@ -51,25 +51,25 @@ export default {
           'image': 'meet_actives (1).jpg',
           'title': 'MEET THE ACTIVES',
           'status': '(open rush)',
-          'date': 'TBD'
+          'date': 'April 3, 2023'
+        },
+        {
+          'image': 'interview.jpg',
+          'title': 'SOCIAL NIGHT',
+          'status': '(open rush)',
+          'date': 'April 4, 2023'
         },
         {
           'image': 'pro_night.jpg',
           'title': 'PROFESSIONAL NIGHT',
           'status': '(invite only)',
-          'date': 'TBD'
+          'date': 'April 5, 2023'
         },
         {
           'image': 'coffee_chat.jpg',
           'title': 'COFFEE CHATS',
           'status': '(invite only)',
-          'date': 'TBD'
-        },
-        {
-          'image': 'interview.jpg',
-          'title': 'FINAL INTERVIEWS',
-          'status': '(invite only)',
-          'date': 'TBD'
+          'date': 'April 6, 2023'
         },
       ],
     }
