@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       title: 'ACTIVE MEMBERS',
-      subtitle: 'The Full List',
+      subtitle: 'Winter 2023',
       classes: [
         {
           title: 'Tau Class',
@@ -72,7 +72,7 @@ export default {
               description: 'Computer Science, Applied Math'
             },
             {
-              image: 'ashton.jpg',
+              image: 'Ashton.jpg',
               title: 'Ashton Yuan',
               description: 'Communications, Public Affairs'
             },
@@ -101,11 +101,11 @@ export default {
         {
           title: 'Phi Class',
           item: [
-            {
-              image: 'executives-img-1.png',
-              title: 'Dakota Edison',
-              description: 'Business Economics'
-            },
+            // {
+            //   image: 'executives-img-1.png',
+            //   title: 'Dakota Edison',
+            //   description: 'Business Economics'
+            // },
             {
               image: 'Ng.jpg',
               title: 'Emily Ng',
@@ -216,11 +216,11 @@ export default {
               title: 'Andrea Nuñez Guido',
               description: 'Global Studies, Labor Studies'
             },
-            {
-              image: 'executives-img-2.png',
-              title: 'Anish Ravilla',
-              description: 'Statistics, Cognitive Science'
-            },
+            // {
+            //   image: 'executives-img-2.png',
+            //   title: 'Anish Ravilla',
+            //   description: 'Statistics, Cognitive Science'
+            // },
             {
               image: 'Emily.jpg',
               title: 'Emily Glazer',
@@ -351,6 +351,15 @@ export default {
   font-size: 18px;
   font-family: 'AvenirLT';
   font-weight: 200;
+}
+
+.actives-img {
+  max-width: 100%;
+}
+
+.active-img {
+  width: 100%;
+  height: 100%;
 }
 
 .actives-item-main-inner .actives-item {

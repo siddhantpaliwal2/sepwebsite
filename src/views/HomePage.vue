@@ -357,8 +357,7 @@ export default {
 }
 
 .brotherhood-slider{
-  max-width: 1200px;
-  max-height: 800PX;
+  max-width: 1000px;
   position: relative;
   margin-left: 100px;
 }
