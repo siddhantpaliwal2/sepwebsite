@@ -45,7 +45,7 @@ export default {
 	data() {
 		return {
       title:'EXECUTIVE BOARD',
-	  subtitle: 'Full list of Executives',
+	  subtitle: "Our executive board takes on the responsiblity of taking on our fraternity's best interests.",
 			records: [
         {
           'image': 'Neha Bhongir.jpg',
@@ -177,6 +177,7 @@ export default {
 
 .executives-inner-section .executives-header {
   text-align: center;
+  padding: 20px;
 
   align-items: center;
 }
@@ -189,7 +190,7 @@ export default {
 }
 
 .executives-inner-section .executives-header p {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'AvenirLT';
   font-weight: 200;
   text-align: center;

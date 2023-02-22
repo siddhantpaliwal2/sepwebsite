@@ -134,7 +134,7 @@ export default {
           'type': 'image',
         },
         {
-          'image': 'SEP_9.jpg',
+          'image': 'SEP_replace1.jpg',
           'type': 'image',
         },
         {

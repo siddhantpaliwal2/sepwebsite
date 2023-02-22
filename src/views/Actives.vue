@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       title: 'ACTIVE MEMBERS',
-      subtitle: 'Winter 2023',
+      subtitle: 'As of Winter 2023',
       classes: [
         {
           title: 'Tau Class',
@@ -216,11 +216,11 @@ export default {
               title: 'Andrea Nuñez Guido',
               description: 'Global Studies, Labor Studies'
             },
-            // {
-            //   image: 'executives-img-2.png',
-            //   title: 'Anish Ravilla',
-            //   description: 'Statistics, Cognitive Science'
-            // },
+            {
+              image: 'anish.jpg',
+              title: 'Anish Ravilla',
+              description: 'Statistics, Cognitive Science'
+            },
             {
               image: 'Emily.jpg',
               title: 'Emily Glazer',
@@ -342,9 +342,10 @@ export default {
 }
 
 .actives-header h3 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 600;
   margin-bottom: 10px;
+  padding: 16px;
 }
 
 .actives-header p {
