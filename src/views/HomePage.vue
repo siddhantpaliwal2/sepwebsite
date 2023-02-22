@@ -392,6 +392,7 @@ export default {
   max-width: 600px;
   margin-top: 30px;
   margin-bottom: 50px;
+  margin-left: 200px;
 }
 
 .item .inner-item .item-img img {
@@ -413,13 +414,42 @@ export default {
 .brotherhood-slider .brotherhood-inner-slider .item .inner-item .item-img img {
   width: 100%;
   align-items: center;
-  max-height: 600px;
+  max-height: fit-content;
+  max-width: fit-content;
 }
 
 .whoweare-main .inner-item .item-img video {
   width: 100%;
   object-fit: cover;
   height: 100%;
+}
+
+.brotherhood-inner-slider .VueCarousel-navigation-prev {
+  left: 50px;
+  font-size: 0;
+  background-image: url(../assets/img/pre.png);
+  background-size: cover;
+  padding: 0 !important;
+  width: 23px;
+  margin-left: 200px;
+  height: 39px;
+  background-position: center;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  filter: brightness(0) invert(1);
+}
+
+.brotherhood-inner-slider .VueCarousel-navigation-next {
+  right: 50px;
+  font-size: 0;
+  background-image: url(../assets/img/next.png);
+  background-size: cover;
+  padding: 0 !important;
+  width: 23px;
+  height: 39px;
+  background-position: top;
+  background-repeat: no-repeat;
+  filter: brightness(0) invert(1);
 }
 
 .whoweare-inner-slider .VueCarousel-navigation-prev {
